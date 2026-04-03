@@ -25,6 +25,13 @@ import { DebateModule } from "./demos/debate-module";
 import { MisconceptionDetector } from "./demos/misconception-detector";
 import { BranchingStoryLearning } from "./demos/branching-story-learning";
 import { TimelineBuilder } from "./demos/timeline-builder";
+import { WordMorphologyLab } from "./demos/word-morphology-lab";
+import { DataInterpretation } from "./demos/data-interpretation";
+import { LabReportBuilder } from "./demos/lab-report-builder";
+import { PronunciationTrainer } from "./demos/pronunciation-trainer";
+import { CauseEffectChain } from "./demos/cause-effect-chain";
+import { KnowledgeArchaeology } from "./demos/knowledge-archaeology";
+import { ConceptTranslator } from "./demos/concept-translator";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -53,6 +60,13 @@ createRoot(document.getElementById("root")!).render(
           <Route path="misconception-detector" element={<MisconceptionDetector />} />
           <Route path="branching-story-learning" element={<BranchingStoryLearning />} />
           <Route path="timeline-builder" element={<TimelineBuilder />} />
+          <Route path="word-morphology-lab" element={<WordMorphologyLab />} />
+          <Route path="data-interpretation" element={<DataInterpretation />} />
+          <Route path="lab-report-builder" element={<LabReportBuilder />} />
+          <Route path="pronunciation-trainer" element={<PronunciationTrainer />} />
+          <Route path="cause-effect-chain" element={<CauseEffectChain />} />
+          <Route path="knowledge-archaeology" element={<KnowledgeArchaeology />} />
+          <Route path="concept-translator" element={<ConceptTranslator />} />
         </Route>
       </Routes>
     </BrowserRouter>
