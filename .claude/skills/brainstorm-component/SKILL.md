@@ -14,6 +14,10 @@ Read all files in `src/demos/` and `src/pages/catalog.tsx` to build an inventory
 - Tag each with its **interaction model** (click-to-select, drag, text-input, audio, drawing, timeline, branching-narrative, gamified-combat, matching, building/assembling)
 - Note which **sensory channels** are used (visual-only, audio, spatial/drag, text-creation, real-time-feedback)
 
+## Step 1.5: Check rejected ideas
+
+Read `rejected-ideas.md` at the project root. This file lists previously brainstormed ideas that were rejected. **Do not propose any idea that overlaps significantly with a rejected one.** Mention which rejected ideas you considered and why your proposal is different.
+
 ## Step 2: Identify creative gaps
 
 Using the inventory, find what's **missing**. Check against these dimensions:

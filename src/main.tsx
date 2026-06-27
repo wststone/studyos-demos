@@ -32,6 +32,17 @@ import { PronunciationTrainer } from "./demos/pronunciation-trainer";
 import { CauseEffectChain } from "./demos/cause-effect-chain";
 import { KnowledgeArchaeology } from "./demos/knowledge-archaeology";
 import { ConceptTranslator } from "./demos/concept-translator";
+import { TessellationStudio } from "./demos/tessellation-studio";
+import { EvidencePairing } from "./demos/evidence-pairing";
+import { TransitionWorkshop } from "./demos/transition-workshop";
+import { VocabInContext } from "./demos/vocab-in-context";
+import { ListeningNotepad } from "./demos/listening-notepad";
+import { PassagePacing } from "./demos/passage-pacing";
+import { IntonationPainter } from "./demos/intonation-painter";
+import { TenseTimeline } from "./demos/tense-timeline";
+import { CollocationConstellation } from "./demos/collocation-constellation";
+import { StressWaveSurf } from "./demos/stress-wave-surf";
+import { EtymologyTree } from "./demos/etymology-tree";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -67,6 +78,17 @@ createRoot(document.getElementById("root")!).render(
           <Route path="cause-effect-chain" element={<CauseEffectChain />} />
           <Route path="knowledge-archaeology" element={<KnowledgeArchaeology />} />
           <Route path="concept-translator" element={<ConceptTranslator />} />
+          <Route path="tessellation-studio" element={<TessellationStudio />} />
+          <Route path="evidence-pairing" element={<EvidencePairing />} />
+          <Route path="transition-workshop" element={<TransitionWorkshop />} />
+          <Route path="vocab-in-context" element={<VocabInContext />} />
+          <Route path="listening-notepad" element={<ListeningNotepad />} />
+          <Route path="passage-pacing" element={<PassagePacing />} />
+          <Route path="intonation-painter" element={<IntonationPainter />} />
+          <Route path="tense-timeline" element={<TenseTimeline />} />
+          <Route path="collocation-constellation" element={<CollocationConstellation />} />
+          <Route path="stress-wave-surf" element={<StressWaveSurf />} />
+          <Route path="etymology-tree" element={<EtymologyTree />} />
         </Route>
       </Routes>
     </BrowserRouter>
